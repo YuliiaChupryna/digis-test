@@ -13,7 +13,7 @@ const getTempAndTimeXYData = (list) => {
     list.forEach((item) => {
         result.push({
             xData: item.dt_txt.split(' ')[1].slice(0, 5),
-            yData: item.main.temp,
+            yData: Math.round(item.main.temp - 273.15),
         })
     });
 
