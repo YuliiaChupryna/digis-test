@@ -33,7 +33,7 @@ const CitiesTemperatureFinder = ({
 
         axios({
             method: "get",
-            url: `http://api.openweathermap.org/data/2.5/forecast?q=${value}&appid=${API_KEY}`,
+            url: `https://api.openweathermap.org/data/2.5/forecast?q=${value}&appid=${API_KEY}`,
         }).then((response) => {
             setCityForecastData( {...response.data});
         }).catch(() => {
