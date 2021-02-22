@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/digis-test/static/css/main.72e5d63f.chunk.css",
+    "main.js": "/digis-test/static/js/main.228bbd32.chunk.js",
+    "main.js.map": "/digis-test/static/js/main.228bbd32.chunk.js.map",
+    "runtime-main.js": "/digis-test/static/js/runtime-main.cfdab1a9.js",
+    "runtime-main.js.map": "/digis-test/static/js/runtime-main.cfdab1a9.js.map",
+    "static/js/2.23107f72.chunk.js": "/digis-test/static/js/2.23107f72.chunk.js",
+    "static/js/2.23107f72.chunk.js.map": "/digis-test/static/js/2.23107f72.chunk.js.map",
+    "index.html": "/digis-test/index.html",
+    "static/css/main.72e5d63f.chunk.css.map": "/digis-test/static/css/main.72e5d63f.chunk.css.map",
+    "static/js/2.23107f72.chunk.js.LICENSE.txt": "/digis-test/static/js/2.23107f72.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cfdab1a9.js",
+    "static/js/2.23107f72.chunk.js",
+    "static/css/main.72e5d63f.chunk.css",
+    "static/js/main.228bbd32.chunk.js"
+  ]
+}
