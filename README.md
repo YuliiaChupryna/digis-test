@@ -1,8 +1,8 @@
-##GH-pages
+## GH-pages
 
 [https://yuliiachupryna.github.io/digis-test/](https://yuliiachupryna.github.io/digis-test/)
 
-##Installation to your computer
+## Installation to your computer
 
 1. Clone this repo to your computer
    <br />
