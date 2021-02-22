@@ -83,10 +83,16 @@ CitiesTemperatureFinder.propTypes = {
                 dt_txt: PropTypes.string,
                 main: PropTypes.arrayOf(PropTypes.shape({
                     temp: PropTypes.number,
-                }))
-            }))
+                })),
+            })),
+            city: PropTypes.shape({
+                name: PropTypes.string,
+            })
         }),
-        isError: PropTypes.bool,
-        isLoading: PropTypes.bool
-    })
+        isError: PropTypes.bool.isRequired,
+        isLoading: PropTypes.bool.isRequired
+    }),
+    setCityForecastIsError: PropTypes.func.isRequired,
+    setCityForecastIsLoading: PropTypes.func.isRequired,
+    setCityForecastData: PropTypes.func.isRequired
 };

@@ -1,8 +1,9 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { BarChart, Bar, XAxis, YAxis, Tooltip, CartesianGrid} from "recharts";
 
 
-const BarChartXY = ({ info, yName, title }) => {
+const BarChartXY = ({ info, yName , title = '' }) => {
     const data = info.map(item => ({ xName: item.xData, [yName]: item.yData,}));
     return (
     <div>
@@ -18,4 +19,13 @@ const BarChartXY = ({ info, yName, title }) => {
 )};
 
 export default BarChartXY;
+
+BarChartXY.propTypes = {
+    info: PropTypes.arrayOf(PropTypes.shape({
+        xData: PropTypes.string.isRequired,
+        yData: PropTypes.number.isRequired,
+    })),
+    yName: PropTypes.string.isRequired,
+    title: PropTypes.string
+};
 
